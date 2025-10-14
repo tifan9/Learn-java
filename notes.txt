@@ -1,0 +1,53 @@
+object oriented programming
+objects has properties or behaviors
+
+class: is a blueprint of an object
+object: is an instance of a class 
+
+there is no difference between objects and instances both are the same. 
+itenary operator: 
+
+class can have variables and methods
+
+## Class library is a set of classes
+
+every class writen in java have 2 components: attributes and behaviors
+
+## attributes: defines the appearance of an object
+    ex: class moto{
+        color,
+        style,
+        make
+    }
+## instance variable defines the attribute of an object
+
+## behavior: determine the way object will work
+    ex: start engine
+
+to define an object behavior we create methods which look and behave like functions in other language
+Methods: are functions defined inside classes that operate on instances of those classes.
+
+
+lets create a class
+
+    class Motocycle{
+        String make;
+        String color;
+        boolean engineState; // this will check if the engine is on or off.
+    }
+    // we will create a method to the class
+
+    void startEngine(){
+        if (engineState == true){
+            System.out.println("The engine has started);
+        }else{
+            engineState = true;
+            System.out.println("The Engine is now on. ");
+        }
+    }
+
+### subclassing means to create a new class from some other class in the class hierarchy
+### inheritance is the process of creating a new class from an existing class.
+
+### super class is the parent class from which other classes are derived
+### sub class is the child class that inherits from the parent class

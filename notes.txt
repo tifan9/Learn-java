@@ -27,7 +27,7 @@ every class writen in java have 2 components: attributes and behaviors
 to define an object behavior we create methods which look and behave like functions in other language
 Methods: are functions defined inside classes that operate on instances of those classes.
 
-
+Methods in Java are reusable pieces of code that perform a specific task.
 lets create a class
 
     class Motocycle{

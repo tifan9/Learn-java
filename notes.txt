@@ -52,10 +52,17 @@ lets create a class
 ### super class is the parent class from which other classes are derived
 ### sub class is the child class that inherits from the parent class
 
-### overriding a method
+### method overloading
 
-### overloading a method
+
+
+### method overriding
+is creating a method in a subclass that has the same signature (name,
+number and type of arguments) as a method in a superclass
+
+
 ### encapsulation is the process of wrapping data and methods into a single unit
+
 ### polymorphism is the ability of an object to take on many forms
 
 ### Packages in Java are a way of grouping together related classes and interfaces. 

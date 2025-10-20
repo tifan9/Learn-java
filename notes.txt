@@ -60,6 +60,12 @@ lets create a class
 is creating a method in a subclass that has the same signature (name,
 number and type of arguments) as a method in a superclass
 
+This is useful when we want our child class method to have the same name as a parent class method but behave a bit differently in some way.
+
+@Override This annotation informs the 
+compiler
+Preview: Docs Java compilers take Java source code and produce class files containing platform-neutral Java bytecode that can be executed by the Java Virtual Machine (JVM).
+ that we want to override a method in the parent class.
 
 ### encapsulation is the process of wrapping data and methods into a single unit
 

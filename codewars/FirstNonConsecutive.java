@@ -1,3 +1,4 @@
+package codewars;
 public class FirstNonConsecutive {
     static Integer find(final int[] array) {
       for (int i = 1; i < array.length; i++ ){

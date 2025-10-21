@@ -53,7 +53,7 @@ lets create a class
 ### sub class is the child class that inherits from the parent class
 
 ### method overloading
-
+it is when you have same method but different parametes
 
 
 ### method overriding
@@ -78,3 +78,15 @@ Preview: Docs Java compilers take Java source code and produce class files conta
 a class has a set of behaviors in addition to the behaviors the class gets from its superclasses.
 
 
+### in a stack you store data in different sequence
+
+### heap 
+is a region of a computer's memory that is used for dynamic memory allocation. In Java, the heap is where all objects are stored when they are created using the new keyword. The heap is managed by the Java Virtual Machine (JVM) and is divided into two main areas: the young generation and the old generation.
+
+### the this keyword in Java is a reference variable that refers to the current object.
+
+### local variables
+are variables that are declared within a method, constructor, or block and can only be accessed within that method, constructor, or block.
+
+### instance variables
+are variables that are declared within a class but outside the method

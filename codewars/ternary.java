@@ -1,3 +1,4 @@
+package codewars;
 class Calculator{
     int a;
     public int add(){

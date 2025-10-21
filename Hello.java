@@ -1,18 +1,41 @@
-public class Hello {
-    public static void main(String a[]) {
-        int num = 1;
-        System.out.println(num);
-        System.out.println("Hello this is a java files");
+class Calculator{
 
-        // Literals
-        double num2 = 56;
-        System.out.println(num2);
-
-        String[] students = { "Ram", "Shyam", "Hari" };
-        int[] n = new int[3];
-        for (int i = 0; i < students.length; i++) {
-            System.out.println(students[i] + ": " + n[i]);
-
-        }
+    int a;
+    public int Add(){
+        System.out.println("Addition");
+        return 0;
     }
+}
+
+// creating a method
+
+class Computer{
+    public void playMusic(){
+        System.out.println("Playing music...");
+    }
+
+    public String getPen(int cost){
+if(cost >=10){
+return "Pen red";
+}else{
+    return "Pen blue";
+}
+    }
+}
+public class Hello {
+    public static void main (String [] args){
+        // int num1= 2;
+
+        // int num2= 4;
+
+        // Calculator calculator = new Calculator();
+        // System.out.println(num1+num2 + calculator.Add());
+
+        Computer obj = new Computer();
+        obj.playMusic();
+        
+    String str = obj.getPen(1);
+System.out.println(str);
+
+}
 }

@@ -1,3 +1,4 @@
+package codewars;
 // check for a factor number
 public class Grasshopper {
     public static boolean checkForFactor(int base, int factor){

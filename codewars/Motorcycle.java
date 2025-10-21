@@ -1,3 +1,4 @@
+package codewars;
 public class Motorcycle {
     String make;
     String color;

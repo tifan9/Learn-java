@@ -1,3 +1,4 @@
+package codewars;
 public public class Sequence{
 
   public static int[] reverse(int n){

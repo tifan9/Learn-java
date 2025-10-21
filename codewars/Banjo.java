@@ -1,3 +1,4 @@
+package codewars;
 public class Banjo {
     public static String areYouPlayingBanjo(String name) {
         if (name.toLowerCase().startsWith("r")){

@@ -1,3 +1,4 @@
+package codewars;
 public class RemoveChars {
     public static String remove(String str) {
 

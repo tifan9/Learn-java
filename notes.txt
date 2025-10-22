@@ -91,4 +91,8 @@ are variables that are declared within a method, constructor, or block and can o
 ### instance variables
 are variables that are declared within a class but outside the method
 
-1
+### casting: it is how values are converted into another type especially primitive types.
+
+### we use final keyword before a variable to declare a constant variable
+e.g: final float n = 4;
+
